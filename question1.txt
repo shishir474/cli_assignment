@@ -1,0 +1,14 @@
+╰─ echo "current date is `date`"                                               
+current date is Fri Feb  3 11:17:46 IST 2023
+
+╰─ echo "User is `whoami`"                                                     
+User is shishirsingh
+
+╰─ echo "Current direcotry `pwd`"                                             
+Current direcotry /Users/shishirsingh/Desktop/cli_assignment
+
+╰─ echo $HOME                                                                  
+/Users/shishirsingh
+
+─ date | cut -d " " -f5 | cut -d ":" -f1-2                                
+11:25

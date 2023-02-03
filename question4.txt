@@ -1,0 +1,20 @@
+1. Create a folder assignment
+mkdir assignment
+
+2. Move into the assignment folder
+cd assignment
+
+3. Create a new file file1.txt
+touch file1.txt
+
+4. Copy the contents of table.sh into file1 without using cp and mv command
+cat ../table.sh >> file1.txt
+
+5. Append the text 'welcome to sigmoid' to file1
+echo "welcome to sigmoid" >> file1.txt
+
+6. List the directories and files present inside Desktop folder
+cd ~/Desktop
+ls -la
+
+
