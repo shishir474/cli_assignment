@@ -15,3 +15,8 @@ Q4. Create a new folder assignment, create a new file named File1.txt inside ass
 Next we have to list all files/folder using ls -la command
 
 Q5. Table.sh ---> run a loop from I=1 to I<=10, to print the table of n given as input by the user.
+
+
+
+
+NOTE: In this assignment, everyone has followed almost same approach described above. One optimisation that could be done is in checking prime number. here the most optimised solution has a complexity of O(sqrt(n)) which is much less than O(n/2) other's solutions complexity.
